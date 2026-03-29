@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { getRouteGroups, routes } from "../data/navigation";
+import type { ReactElement } from "react";
 
-const groupMeta: Record<string, { desc: string; icon: JSX.Element }> = {
+const groupMeta: Record<string, { desc: string; icon: ReactElement }> = {
   "Основа": {
     desc: "Устав, командование и базовые регламенты",
     icon: (
